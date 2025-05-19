@@ -1,0 +1,134 @@
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Dalton | Environmental Tech Pioneer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        :root {
+            --text-primary: #1a1a1a;
+            --text-secondary: #666;
+            --accent: #0066ff;
+            --bg-light: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background: #ffffff;
+            color: var(--text-primary);
+        }
+
+        .banner {
+            position: relative;
+            height: 90vh; /* Adjusted height for better visibility */
+            background: url('/older_options/assets/gabriel_headshot.jpg') no-repeat center center / cover;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; /* Align content to the left */
+            text-align: left;
+            color: white;
+            padding: 40px 60px;
+        }
+
+        .banner::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.1); /* Lightened overlay for better visibility */
+        }
+
+        .banner-content {
+            position: relative;
+            max-width: 50%;
+        }
+
+        .banner h1 {
+            font-size: 64px;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .banner p {
+            font-size: 24px;
+            color: rgba(255,255,255,0.9);
+        }
+
+        .content {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+
+        @media (max-width: 768px) {
+            .banner {
+                height: 80vh; /* Adjust height for mobile */
+                background-position: center top; /* Ensure face is visible */
+                background-size: cover;
+                justify-content: center; /* Center text on smaller screens */
+                text-align: center;
+                padding: 40px 20px;
+            }
+
+            .banner-content {
+                max-width: 80%;
+            }
+
+            .banner h1 {
+                font-size: 48px;
+            }
+
+            .banner p {
+                font-size: 20px;
+            }
+        }
+      .linkedin-icon {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .linkedin-icon:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+            .banner {
+                height: 80vh;
+                padding: 20px;
+            }
+
+            .banner-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .banner-content p {
+                font-size: 1.25rem;
+            }
+
+            .linkedin-icon {
+                width: 45px;
+                height: 45px;
+            }
+        }
+    </style>
+
+
+    <div class="banner">
+        <div class="banner-content">
+            <h1>Hi, I'm Gabriel.</h1>
+            <p>Founder @ Oasis of Change Inc.</p>
+           <a href="https://www.linkedin.com/in/gabrieldalton/" target="_blank">
+            <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn" class="linkedin-icon">
+        </a>
+        </div>
+    </div>
+
